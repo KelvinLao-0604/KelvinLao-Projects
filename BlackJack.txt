@@ -1,0 +1,492 @@
+import java.util.Scanner;
+
+public class Main {
+  
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String[] cards = new String[]{"Ace of Diamonds", "Two of Diamonds", "Three of Diamonds",
+      "Four of Diamonds", "Five of Diamonds", "Six of Diamonds", "Seven of Diamonds", "Eight of Diamonds",
+      "Nine of Diamonds", "Ten of Diamonds", "Jack of Diamonds", "Queen of Diamonds", "King of Diamonds",
+      "Ace of Clubs", "Two of Clubs", "Three of Clubs", "Four of Clubs", "Five of Clubs",
+      "Six of Clubs", "Seven of Clubs", "Eight of Clubs", "Nine of Clubs", "Ten of Clubs", "Jack of Clubs",
+      "Queen of Clubs", "King of Clubs", "Ace of Hearts", "Two of Hearts", "Three of Hearts",
+      "Four of Hearts", "Five of Hearts", "Six of Hearts", "Seven of Hearts", "Eight of Hearts", "Nine of Hearts",
+      "Ten of Hearts", "Jack of Hearts", "Queen of Hearts", "King of Hearts", "Ace of Spades",
+      "Two of Spades", "Three of Spades", "Four of Spades", "Five of Spades", "Six of Spades", "Seven of Spades",
+      "Eight of Spades", "Nine of Spades", "Ten of Spades", "Jack of Spades", "Queen of Spades", "King of Spades",
+    };
+    int dealerVictory = 0;
+    int playerVictory = 0;
+    int newGame = 0;
+    while (newGame ==0) {
+      int ace1 = 1;
+      int ace2 = 11;
+      int aceFinder = 0;
+      int dealeraceFinder = 0;
+      
+      int playerTotal = 0;
+      int playerTotal1 = 0;
+      int playerTotal2 = 0;
+      int playerTotal3 = 0;
+      int playerNumber1 = -1;
+      
+      int dealerTotal = 0;
+      int dealerTotal1 = 0;
+      int dealerTotal2 = 0;
+      int dealerTotal3 = 0;
+      int dealerNumber1 = -1;
+      
+      
+      int card1 = (int) (Math.random() * 52);
+      String playerCard1 = cards[card1];
+      cards[card1] = null;
+      while (playerCard1 == null) {
+        card1 = (int) (Math.random() * 52);
+        playerCard1 = cards[card1];
+      }
+      if (card1 == 0 || card1 == 13 || card1 == 26 || card1 == 39) {
+        playerTotal1 = playerTotal1 + ace1;
+        playerTotal2 = playerTotal2 + ace2;
+        aceFinder++;
+      } else {
+        for (int o = 1; o < 10; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card1 == i) {
+              playerNumber1 = (o + 1);
+            }
+          }
+        }
+        
+        
+        for (int o = 10; o < 13; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card1 == i) {
+              playerNumber1 = (10);
+            }
+          }
+        }
+        playerTotal = playerTotal + playerNumber1;
+      }
+      
+      
+      int card2 = (int) (Math.random() * 52);
+      String playerCard2 = cards[card2];
+      while (playerCard2 == (null)) {
+        card2 = (int) (Math.random() * 52);
+        playerCard2 = cards[card2];
+      }
+      cards[card2] = null;
+      if (card2 == 0 || card2 == 13 || card2 == 26 || card2 == 39) {
+        playerTotal1 = playerTotal1 + ace1;
+        playerTotal2 = playerTotal2 + ace2;
+        aceFinder++;
+      } else {
+        for (int o = 1; o < 10; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card2 == i) {
+              playerNumber1 = (o + 1);
+            }
+          }
+        }
+        
+        
+        for (int o = 10; o < 13; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card2 == i) {
+              playerNumber1 = (10);
+            }
+          }
+        }
+        playerTotal = playerTotal + playerNumber1;
+      }
+      
+      
+      System.out.println("\nYour cards are " + playerCard1 + " and " + playerCard2);
+      if (aceFinder == 1) {
+        System.out.println("Your total is either " + (playerTotal + playerTotal1) + " or " + (playerTotal + playerTotal2));
+      } else if (aceFinder == 2) {
+        System.out.println("Your total is either " + playerTotal1 + " or " + playerTotal2);
+      } else if (aceFinder == 0) {
+        System.out.println("Your total is " + playerTotal);
+      }
+      
+      
+      int card3 = (int) (Math.random() * 52);
+      String dealerCard1 = cards[card3];
+      while (dealerCard1 == (null)) {
+        card3 = (int) (Math.random() * 52);
+        dealerCard1 = cards[card3];
+      }
+      cards[card3] = null;
+      if (card3 == 0 || card3 == 13 || card3 == 26 || card3 == 39) {
+        dealerTotal1 = dealerTotal1 + ace1;
+        dealerTotal2 = dealerTotal2 + ace2;
+        dealerNumber1 = 0;
+        dealeraceFinder++;
+      } else {
+        for (int o = 1; o < 10; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card3 == i) {
+              dealerNumber1 = (o + 1);
+            }
+          }
+        }
+        
+        
+        for (int o = 10; o < 13; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card3 == i) {
+              dealerNumber1 = (10);
+            }
+          }
+        }
+        dealerTotal = dealerTotal + dealerNumber1;
+      }
+      
+      
+      int card4 = (int) (Math.random() * 52);
+      String dealerCard2 = cards[card4];
+      while (dealerCard2 == (null)) {
+        card4 = (int) (Math.random() * 52);
+        dealerCard2 = cards[card4];
+      }
+      cards[card4] = null;
+      if (card4 == 0 || card4 == 13 || card4 == 26 || card4 == 39) {
+        dealerTotal1 = dealerTotal1 + ace1;
+        dealerTotal2 = dealerTotal2 + ace2;
+        dealerTotal3 = ace1 + ace2;
+        dealerNumber1 = 0;
+        dealeraceFinder++;
+      } else {
+        for (int o = 1; o < 10; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card4 == i) {
+              dealerNumber1 = (o + 1);
+            }
+          }
+        }
+        
+        
+        for (int o = 10; o < 13; o++) {
+          for (int i = o; i < cards.length; i += 13) {
+            if (card4 == i) {
+              dealerNumber1 = (10);
+            }
+          }
+        }
+        dealerTotal = dealerTotal + dealerNumber1;
+      }
+      System.out.println("\nThe dealer has a " + dealerCard1 + " showing, and a hidden card.");
+      
+      
+      System.out.println("\nWould you like to \"hit\" or \"stay\"?\n");
+      String hitOrStay = scan.nextLine();
+      int hitOrStayNum = 0;
+      int end = 0;
+      while (end == 0) {
+        if (hitOrStay.equals("hit")) {
+          while (hitOrStayNum == 0) {
+            int card5 = (int) (Math.random() * 52);
+            String playerCard3 = cards[card5];
+            while (playerCard3 == null) {
+              card5 = (int) (Math.random() * 52);
+              playerCard3 = cards[card5];
+            }
+            cards[card5] = null;
+            if (card5 == 0 || card5 == 13 || card5 == 26 || card5 == 39) {
+              playerTotal1 = playerTotal1 + ace1;
+              playerTotal2 = playerTotal2 + ace2;
+              playerTotal3 = ace1 + ace2;
+              aceFinder++;
+              playerNumber1 = 0;
+            } else {
+              for (int o = 1; o < 10; o++) {
+                for (int i = o; i < cards.length; i += 13) {
+                  if (card5 == i) {
+                    playerNumber1 = (o + 1);
+                  }
+                }
+              }
+              
+              
+              for (int o = 10; o < 13; o++) {
+                for (int i = o; i < cards.length; i += 13) {
+                  if (card5 == i) {
+                    playerNumber1 = (10);
+                  }
+                }
+                
+              }
+            }
+            playerTotal = playerTotal + playerNumber1;
+            System.out.println("\nYou drew a " + playerCard3 + ".");
+            if (aceFinder == 1) {
+              System.out.println("Your total is either " + (playerTotal + playerTotal1) + " or " + (playerTotal + playerTotal2));
+              if (playerTotal + playerTotal1 > 21 && playerTotal + playerTotal2 > 21) {
+                System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                hitOrStayNum++;
+                dealerVictory++;
+                end++;
+              }
+            } else if (aceFinder > 1) {
+              System.out.println("Your total is either " + (playerTotal + playerTotal1) + " or " + (playerTotal + playerTotal3) + " or " + (playerTotal + playerTotal2));
+              if (playerTotal + playerTotal1 > 21 && playerTotal + playerTotal2 > 21 && (playerTotal + playerTotal3 > 21)) {
+                System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                hitOrStayNum++;
+                dealerVictory++;
+                end++;
+              }
+            } else {
+              System.out.println("Your total is " + playerTotal);
+              if (playerTotal > 21) {
+                System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                hitOrStayNum++;
+                dealerVictory++;
+                end++;
+              }
+            }
+            
+            if (hitOrStayNum == 0) {
+              System.out.println("\nWould you like to \"hit\" or \"stay\"?\n");
+              hitOrStay = scan.nextLine();
+              if (hitOrStay.equals("hit")) {
+                hitOrStayNum = 0;
+              } else if (hitOrStay.equals("stay")) {
+                hitOrStayNum++;
+              } else {
+                System.out.println("Sorry that was not an option. Please type \"hit\" or \"stay\"");
+              }
+            }
+          }
+        } else if (hitOrStay.equals("stay")) {
+          while (end == 0) {
+            if (aceFinder == 1) {
+              System.out.println("\nWhat would you want your ace value to be? \"1\" or \"11\"?");
+              int aceDecider = scan.nextInt();
+              scan.nextLine();
+              if (aceDecider == 1) {
+                playerTotal = playerTotal + ace1;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                }
+                aceFinder = 0;
+              } else if (aceDecider == 11) {
+                playerTotal = playerTotal + ace2;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                }
+                aceFinder = 0;
+              }
+            } else if (aceFinder > 1) {
+              System.out.println("\nWhat would you want your first ace value to be? \"1\" or \"11\"?");
+              int aceDecider = scan.nextInt();
+              scan.nextLine();
+              if (aceDecider == 1) {
+                playerTotal = playerTotal + ace1;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                }
+                aceFinder = 0;
+              } else if (aceDecider == 11) {
+                playerTotal = playerTotal + ace2;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                }
+                aceFinder = 0;
+              }
+              System.out.println("\nWhat would you want your second ace value to be? \"1\" or \"11\"?");
+              aceDecider = scan.nextInt();
+              scan.nextLine();
+              if (aceDecider == 1) {
+                playerTotal = playerTotal + ace1;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                }
+                aceFinder = 0;
+              } else if (aceDecider == 11) {
+                playerTotal = playerTotal + ace2;
+                if (playerTotal > 21) {
+                  System.out.println("\nSorry you busted. Dealer wins. Your total is " + playerTotal + ".");
+                  dealerVictory++;
+                  aceDecider++;
+                  
+                }
+                aceFinder = 0;
+              }
+            }
+            if (aceFinder == 0) {
+              int dealerEnd = 0;
+              if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                System.out.println("\nThe dealer decided not to draw.");
+                dealerEnd++;
+                end++;
+              }
+              while (dealerEnd == 0) {
+                int card6 = (int) (Math.random() * 52);
+                String dealerCard3 = cards[card6];
+                while (dealerCard3 == (null)) {
+                  card6 = (int) (Math.random() * 52);
+                  dealerCard3 = cards[card6];
+                }
+                cards[card6] = null;
+                if (card6 == 0 || card6 == 13 || card6 == 26 || card6 == 39) {
+                  dealerTotal1 = dealerTotal1 + ace1;
+                  dealerTotal2 = dealerTotal2 + ace2;
+                  dealerTotal3 = ace1 + ace2;
+                  dealerNumber1 = 0;
+                  dealeraceFinder++;
+                } else {
+                  for (int o = 1; o < 10; o++) {
+                    for (int i = o; i < cards.length; i += 13) {
+                      if (card6 == i) {
+                        dealerNumber1 = (o + 1);
+                      }
+                    }
+                  }
+                }
+                
+                
+                for (int o = 10; o < 13; o++) {
+                  for (int i = o; i < cards.length; i += 13) {
+                    if (card6 == i) {
+                      dealerNumber1 = (10);
+                    }
+                  }
+                }
+                dealerTotal = dealerTotal + dealerNumber1;
+                System.out.println("\nThe dealer drew a " + dealerCard3);
+                if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                  dealerEnd++;
+                  end++;
+                }
+                if (dealeraceFinder == 1) {
+                  if (dealerTotal + dealerTotal2 > 21) {
+                    dealerTotal = dealerTotal + dealerTotal1;
+                    if (dealerTotal > 21) {
+                      System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                      dealerEnd++;
+                      end++;
+                      playerVictory++;
+                    }
+                    if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                      dealerEnd++;
+                      end++;
+                    }
+                  } else {
+                    dealerTotal = dealerTotal + dealerTotal2;
+                    if (dealerTotal > 21) {
+                      System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                      dealerEnd++;
+                      end++;
+                      playerVictory++;
+                    }
+                    if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                      dealerEnd++;
+                      end++;
+                    }
+                  }
+                } else if (dealeraceFinder > 1) {
+                  if (dealerTotal + dealerTotal2 > 21 && dealerTotal + dealerTotal3 > 21) {
+                    dealerTotal = dealerTotal + dealerTotal1;
+                    if (dealerTotal > 21) {
+                      System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                      dealerEnd++;
+                      end++;
+                      playerVictory++;
+                    }
+                    if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                      dealerEnd++;
+                      end++;
+                    }
+                  } else if (dealerTotal + dealerTotal2 > 21 && dealerTotal + dealerTotal3 < 21) {
+                    dealerTotal = dealerTotal + dealerTotal3;
+                    if (dealerTotal > 21) {
+                      System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                      dealerEnd++;
+                      end++;
+                      playerVictory++;
+                    }
+                    if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                      dealerEnd++;
+                      end++;
+                    }
+                  } else {
+                    dealerTotal = dealerTotal + dealerTotal2;
+                    if (dealerTotal > 21) {
+                      System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                      dealerEnd++;
+                      end++;
+                      playerVictory++;
+                    }
+                    if (dealerTotal > playerTotal && dealerTotal <= 21) {
+                      dealerEnd++;
+                      end++;
+                    }
+                  }
+                } else if (dealeraceFinder == 0) {
+                  if (dealerTotal > 21) {
+                    System.out.println("\nCongratulations, the dealer busted. You win. His total was " + dealerTotal + ".");
+                    dealerEnd++;
+                    end++;
+                    playerVictory++;
+                  }
+                }
+              }
+            } else {
+              System.out.println("Sorry that was not an option. Please type \"1\" or \"10\"");
+            }
+          }
+        } else {
+          System.out.println("Sorry that was not an option. Please type \"hit\" or \"stay\"");
+          hitOrStay = scan.nextLine();
+        }
+      }
+      if (dealerTotal >= playerTotal && playerTotal <= 21 && dealerTotal <= 21) {
+        System.out.println("\nThe dealer has a total of " + dealerTotal + ". You have a total of " + playerTotal);
+        System.out.println("The dealer wins this round.");
+        dealerVictory++;
+      } else if (dealerTotal < playerTotal && playerTotal <= 21 && dealerTotal <= 21) {
+        System.out.println("\nThe dealer has a total of " + dealerTotal + ". You have a total of " + playerTotal);
+        System.out.println("You win this round.");
+        playerVictory++;
+      }
+      
+      
+      System.out.println("\nRounds dealer has won: " +dealerVictory);
+      System.out.println("Rounds player has won: " +playerVictory);
+      System.out.println("\nWould you like to play another round? \"yes\" or \"no\"\n");
+      String newRound = scan.nextLine();
+      
+      
+      if(newRound.equals("yes")) {
+        newGame = 0;
+      }
+      else if(newRound.equals("no")){
+        newGame++;
+        System.out.println("The Game has Ended.");
+        if (dealerVictory > playerVictory){
+          System.out.println("\nThe dealer has won more rounds than the player.");
+        }
+        else if (dealerVictory < playerVictory){
+          System.out.println("\nThe player has won more rounds than the dealer.");
+        }
+        else if (dealerVictory == playerVictory) {
+          System.out.println("\nThe dealer and the player have won the same number of rounds.");
+        }
+      }
+      else {
+        System.out.println("Sorry that was not an option. Please type \"yes\" or \"no\"");
+      }
+    }
+  }
+}
