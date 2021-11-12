@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 7b5b6946680461c469b558943399f5a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4245208309812790825
+    second: PC Computer - MapleStory - Extra B CMS_0
+  - first:
+      213: 451050129531628075
+    second: PC Computer - MapleStory - Extra B CMS_1
+  - first:
+      213: 7326514717525039375
+    second: PC Computer - MapleStory - Extra B CMS_2
+  - first:
+      213: 2803852121692226243
+    second: PC Computer - MapleStory - Extra B CMS_3
+  - first:
+      213: 7743205961957704549
+    second: PC Computer - MapleStory - Extra B CMS_4
+  - first:
+      213: 5117418553921948706
+    second: PC Computer - MapleStory - Extra B CMS_5
+  - first:
+      213: 7056437486664316794
+    second: PC Computer - MapleStory - Extra B CMS_37
+  - first:
+      213: -4650451533152737571
+    second: PC Computer - MapleStory - Extra B CMS_38
+  - first:
+      213: -8388028005941959161
+    second: PC Computer - MapleStory - Extra B CMS_39
+  - first:
+      213: 7920564438967298057
+    second: PC Computer - MapleStory - Extra B CMS_40
+  - first:
+      213: -6982395297494336955
+    second: PC Computer - MapleStory - Extra B CMS_41
+  - first:
+      213: -2864793921712178308
+    second: PC Computer - MapleStory - Extra B CMS_42
+  - first:
+      213: -1480583276194951443
+    second: PC Computer - MapleStory - Extra B CMS_43
+  - first:
+      213: 8884970533721048415
+    second: PC Computer - MapleStory - Extra B CMS_44
+  - first:
+      213: -351497766509783463
+    second: PC Computer - MapleStory - Extra B CMS_45
+  - first:
+      213: 439554330404251923
+    second: PC Computer - MapleStory - Extra B CMS_46
+  - first:
+      213: -891743349141198500
+    second: PC Computer - MapleStory - Extra B CMS_47
+  - first:
+      213: -3286746699045437576
+    second: PC Computer - MapleStory - Extra B CMS_48
+  - first:
+      213: 6440859863797454178
+    second: PC Computer - MapleStory - Extra B CMS_49
+  - first:
+      213: 3137748234733196000
+    second: PC Computer - MapleStory - Extra B CMS_50
+  - first:
+      213: -1453526494578974313
+    second: PC Computer - MapleStory - Extra B CMS_64
+  - first:
+      213: -4403087568195343376
+    second: PC Computer - MapleStory - Extra B CMS_65
+  - first:
+      213: -7608442687309870008
+    second: PC Computer - MapleStory - Extra B CMS_66
+  - first:
+      213: 2020625980527322203
+    second: PC Computer - MapleStory - Extra B CMS_67
+  - first:
+      213: -244281439222762617
+    second: PC Computer - MapleStory - Extra B CMS_68
+  - first:
+      213: -5615655878878786769
+    second: PC Computer - MapleStory - Extra B CMS_69
+  - first:
+      213: -5141985800637768302
+    second: PC Computer - MapleStory - Extra B CMS_70
+  - first:
+      213: 6201179240886600068
+    second: PC Computer - MapleStory - Extra B CMS_71
+  - first:
+      213: -733709718640831855
+    second: PC Computer - MapleStory - Extra B CMS_72
+  - first:
+      213: 3043907757133627242
+    second: PC Computer - MapleStory - Extra B CMS_73
+  - first:
+      213: -2797307300018323137
+    second: PC Computer - MapleStory - Extra B CMS_74
+  - first:
+      213: -430257115203058395
+    second: PC Computer - MapleStory - Extra B CMS_75
+  - first:
+      213: 7475928427723119920
+    second: PC Computer - MapleStory - Extra B CMS_76
+  - first:
+      213: 2195211938682647515
+    second: PC Computer - MapleStory - Extra B CMS_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 833
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9268de737720aea30800000000000000
+      internalID: 4245208309812790825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 833
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a60aaf3b3724600800000000000000
+      internalID: 451050129531628075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 833
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0950cb61520da560800000000000000
+      internalID: 7326514717525039375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 833
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2c03436a849e620800000000000000
+      internalID: 2803852121692226243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 833
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5630d211cc4657b60800000000000000
+      internalID: 7743205961957704549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 833
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cc281cf09b40740800000000000000
+      internalID: 5117418553921948706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 754
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77706ce1808de160800000000000000
+      internalID: 7056437486664316794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 754
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6a24148f6467fb0800000000000000
+      internalID: -4650451533152737571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_39
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 754
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7062dc368fcb79b80800000000000000
+      internalID: -8388028005941959161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_40
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 754
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908ac3d646f7bed60800000000000000
+      internalID: 7920564438967298057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_41
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 685
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54afd73a87c891f90800000000000000
+      internalID: -6982395297494336955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 613
+        width: 40
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bb5a54b153e38d0800000000000000
+      internalID: -2864793921712178308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 615
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5872354, y: 0.4952755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee0402da59e37be0800000000000000
+      internalID: -1480583276194951443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_44
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 611
+        width: 77
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55814630a1cd4b70800000000000000
+      internalID: 8884970533721048415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_45
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 610
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95657d7c4aa3f1bf0800000000000000
+      internalID: -351497766509783463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_46
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 613
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ea3ba55c991600800000000000000
+      internalID: 439554330404251923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 613
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c592f9b0624ef93f0800000000000000
+      internalID: -891743349141198500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 500
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f75b88a412362d0800000000000000
+      internalID: -3286746699045437576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 430
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265d7b5cbe7826950800000000000000
+      internalID: 6440859863797454178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 479
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e291ed15658b8b20800000000000000
+      internalID: 3137748234733196000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_64
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 347
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916003ba5904dbe0800000000000000
+      internalID: -1453526494578974313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb27ce6f2715e2c0800000000000000
+      internalID: -4403087568195343376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_66
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 401
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c0af8efa1696690800000000000000
+      internalID: -7608442687309870008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_67
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 352
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a141af94ba0c10800000000000000
+      internalID: 2020625980527322203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_68
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 352
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783f7e543532c9cf0800000000000000
+      internalID: -244281439222762617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_69
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 352
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b889e2bbe2112b0800000000000000
+      internalID: -5615655878878786769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d12e0682ff3a8b0800000000000000
+      internalID: -5141985800637768302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_71
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 352
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48182911aa30f0650800000000000000
+      internalID: 6201179240886600068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_72
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 352
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1925924f5e651d5f0800000000000000
+      internalID: -733709718640831855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_73
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 352
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f71015af12e3a20800000000000000
+      internalID: 3043907757133627242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_74
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 352
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f310dc6d4d7fd29d0800000000000000
+      internalID: -2797307300018323137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 211
+        width: 111
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525cc3eee6b670af0800000000000000
+      internalID: -430257115203058395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_76
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 161
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d5eacbb45dfb760800000000000000
+      internalID: 7475928427723119920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Extra B CMS_77
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 191
+        width: 157
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd330e3a0a5f67e10800000000000000
+      internalID: 2195211938682647515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
