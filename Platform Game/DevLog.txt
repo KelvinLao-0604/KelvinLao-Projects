@@ -1,0 +1,35 @@
+Sunday 11pm
+
+Challening platform game (Maplestory Jump Quest)
+Goal: Feel the dopamine reward at the end of a challenge.
+Sucessful: The player keeps playing and trying to reach the end.
+Failure: The player quits and gives up reaching the end.
+Core loop: Keep trying to platform and reach the end. Will likely end up with a lot of resets but will be very rewarding once you reach the end.
+
+Sunday 2am
+-Background implemented
+
+Monday 11am
+- Platforms implemented
+- Character horizontal movement implemented
+
+Monday 12pm
+- Character jumping implemented
+
+Monday 3pm
+- Chains implemented
+- Escape reset implemented
+- Auto reset implemented
+
+Monday 9pm
+- Slime enemy implemented (Player Death)
+- Sounds implemented
+- Victory implemented
+
+Postmortem
+-Orginally set out to create a challening platformer
+- Goals stayed the same and I accomplished it all
+- The general concepts all came out pretty well
+- The more fine details to make the game more fun could have been better. For example, character movement isn't very fluid. I didn't have time to add animations. 
+- I wish I knew how important movement was to the feel of a platformer.
+- I learned that movement is very important to the feel of a platformer.

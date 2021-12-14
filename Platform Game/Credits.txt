@@ -1,0 +1,12 @@
+Background
+https://maplestory.wiki/GMS/210.1.1/map/280020000
+Background Music
+https://maplestory.wiki/GMS/210.1.1/map/280020000
+Player Sprite
+https://www.spriters-resource.com/pc_computer/maplestory/sheet/36605/
+Monster Sprite
+https://www.spriters-resource.com/pc_computer/maplestory/sheet/21669/
+Death Sound
+https://www.youtube.com/watch?v=Z5tuWBhuQKY
+Jump Sound
+https://sounds.larry.science/sounds/4385B3B2536FF508062806E8434CCCEDD50724A1C4F76EFD7EE0A802C065A7C4.mp3
