@@ -1,7 +1,7 @@
 # KelvinLao-Projects
 This is a repository where I store all the projects I have worked on so far.
 
-### Face Recogniton:
+### Face Recognition:
 This was a final project done in MATLAB from my Linear Algebra class. It is a simple program which differentiates basketball player faces.
 
 ### Platform Game:
@@ -9,13 +9,13 @@ This is a 2D platformer game made in Unity using C#. The player starts at the le
 The player can jump and climb ropes and has to avoid monsters to get to the end.
 
 ### Simple Classifier:
-This is a python program which contains both a binary classifier that takes in 2D data which is lineraly seperable and a a classifier which takes in data which has a decision boundary that goes through the origin and classifies it.
+This is a python program which contains both a binary classifier that takes in 2D data which is linearly separable and a  classifier which takes in data which has a decision boundary that goes through the origin and classifies it.
 
 ### Simple Fixed Shooter:
 This is a 2D Fixed Shooter game made in Unity using C#. The player spawns in the middle and monsters spawn to the left and right of the player. The player will lose if they touch any monster. To win the player must kill 30 of these monsters. My plan for this project is to revamp it into a sidescroller game with RPG elements and try to fix some of the animation bugs.
 
 ### 1D SHM Model:
-This is a NetLogo model I helped make for a teacher during a summer institute. This is a physics model for a spring that can move in one direction. The user can change the mass, spring constant, and inital position and then observe how it oscillates.
+This is a NetLogo model I helped make for a teacher during a summer institute. This is a physics model for a spring that can move in one direction. The user can change the mass, spring constant, and initial position and then observe how it oscillates.
 
 ### BlackJack:
 This is a Blackjack game I made in Java during my high school senior year.
