@@ -27,7 +27,7 @@ This is an engineering project I worked with a team of four on. Our goal was to 
 This is an engineering project I worked with a team of three on in high school. Our goal was to create a way for commuters to work while on long public transit trips. We created a prototype of a lapdesk which also worked as a writing surface and storage device to allow commuters to work on public transit.
 
 ### Sucide Rates Data Analysis Project:
-This was the final project for my Intro to the Data Science Pipeline class. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
+This was the final project for my Intro to the Data Science Pipeline class. I worked in a team of three to analysis suicide rates and try to predict the suicide rates given the other paramters in the dataset. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
 
 ### Visual Deflector Watching Hands Play:
 This is an engineering project I worked with a team of four on. We worked with the Shirley Ryan Abilitylab in downtown Chicago to create a product which would allow for people unable to move their heads to be see their hands and use them in activities such as drawing or playing with toy cars. 
