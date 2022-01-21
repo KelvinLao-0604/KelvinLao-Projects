@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(243, 243, 243);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 75px;
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+}
+
+nav{
+    position: fixed;
+    border: solid 1px rgba(83, 83, 83, 0.575);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding-right: 30px;
+}
+nav > a:hover{
+    color: rgb(101, 36, 145);
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    border: solid 1px rgba(255, 255, 255, 0.575);
+    list-style: none;
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+}
+
+ul, li, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.image > img{
+    border-radius: 50%;
+}
+
+.recommendations{
+    position: fixed;
+    right: 33vh;
+    height: 100vh;
+}
+
+.user_recommendations{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.user_recommendations > h1{
+    padding-left: 80px;
+    font-size: 30px;
+}
+.suggestions > h2{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(121, 121, 121);
+    padding-right: 100px;
+}
+.suggestions > .profile_card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.suggestions > .profile_card > .rec_text{
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.suggestions > .profile_card > .rec_text > p{
+    color: rgb(121, 121, 121);
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 13px;
+    color: rgb(0, 130, 255);
+    opacity: 0.7;
+}
+
+
+button:active {
+  box-shadow: 0 1px rgb(0, 130, 255);
+  transform: translateY(4px);
+}
+
+.story_card{
+    padding-top: 15px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.story_card > .image{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    width: 50.1vw;
+    border: solid 1px rgba(83, 83, 83, 0.575);
+    background-color: white;
+    margin-left: 100px;
+}
+
+.post{
+    width: 50.1vw;
+    background-color: white;
+    border: solid 1px rgba(83, 83, 83, 0.575);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.post > img {
+    width: 50vw;
+}
+
+.user_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.post_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.like_bar{
+    padding: 10px;
+    margin: 0px;
+}
+
+.caption{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.caption > p{
+    padding-left: 10px;
+    margin: 0px;
+}
+
+
+.comment{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    margin: 0px;
+}
+
+.comment > p{
+    padding-left: 10px;
+}
+
+.comment_bar{
+    background-color: white;
+    border-top: solid 1px rgba(83, 83, 83, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.comment_bar > .post_button{
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+input{
+    width: 40vw;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .recommendations{
+        display: none;
+    }
+}
