@@ -8,6 +8,9 @@ The link to this is [here.](https://photo-app-kelvin.herokuapp.com/)
 ### Sucide Rates Data Analysis Project:
 This was the final project for my Intro to the Data Science Pipeline class. I worked in a team of three to analysis suicide rates and try to predict the suicide rates given the other paramters in the dataset. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
 
+### Terror in Tech:
+I worked in a team of 3 to create a 2D top-down rougelike game. We are still currently building and fleshing out this game this quarter
+
 ### Platform Game:
 This is a 2D platformer game made in Unity using C#. The player starts at the left of the screen and has to traverse to a platform at the very right of the map. 
 The player can jump and climb ropes and has to avoid monsters to get to the end.
