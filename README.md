@@ -3,6 +3,7 @@ This is a repository where I store all the projects I have worked on so far.
 
 ### Photo App:
 This is an instagram clone I'm currently working on for my web development class. We are working with HTML, CSS, JS, SQL, and flask.
+The link to this is [here.](https://photo-app-kelvin.herokuapp.com/)
 
 ### Sucide Rates Data Analysis Project:
 This was the final project for my Intro to the Data Science Pipeline class. I worked in a team of three to analysis suicide rates and try to predict the suicide rates given the other paramters in the dataset. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
