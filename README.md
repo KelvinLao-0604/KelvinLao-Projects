@@ -2,14 +2,14 @@
 This is a repository where I store all the projects I have worked on so far.
 
 ### Photo App:
-This is an instagram clone I'm currently working on for my web development class. We are working with HTML, CSS, JS, SQL, and flask.
+This is an instagram clone I'm currently working on for my web development class. We are working with HTML, CSS, JS, SQL, and React.
 The link to this is [here.](https://photo-app-kelvin.herokuapp.com/)
 
 ### Sucide Rates Data Analysis Project:
 This was the final project for my Intro to the Data Science Pipeline class. I worked in a team of three to analysis suicide rates and try to predict the suicide rates given the other paramters in the dataset. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
 
 ### Terror in Tech:
-I worked in a team of 3 to create a 2D top-down rougelike game. We are still currently building and fleshing out this game this quarter
+I worked in a team of 3 to create a 2D top-down rougelike game. We are still currently building and fleshing out this game this quarter. The Terror in Tech zip has the actual final build and there is a seperate zip for the unity files.
 
 ### Platform Game:
 This is a 2D platformer game made in Unity using C#. The player starts at the left of the screen and has to traverse to a platform at the very right of the map. 
@@ -19,7 +19,7 @@ The player can jump and climb ropes and has to avoid monsters to get to the end.
 This is a python program which contains both a binary classifier that takes in 2D data which is linearly separable and a  classifier which takes in data which has a decision boundary that goes through the origin and classifies it.
 
 ### Simple Fixed Shooter:
-This is a 2D Fixed Shooter game made in Unity using C#. The player spawns in the middle and monsters spawn to the left and right of the player. The player will lose if they touch any monster. To win the player must kill 30 of these monsters. My plan for this project is to revamp it into a sidescroller game with RPG elements and try to fix some of the animation bugs.
+This is a 2D Fixed Shooter game made in Unity using C#. The player spawns in the middle and monsters spawn to the left and right of the player. The player will lose if they touch any monster. To win the player must kill 30 of these monsters.
 
 ### 1D SHM Model:
 This is a NetLogo model I helped make for a teacher during a summer institute. This is a physics model for a spring that can move in one direction. The user can change the mass, spring constant, and initial position and then observe how it oscillates.
