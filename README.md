@@ -1,6 +1,9 @@
 # KelvinLao-Projects
 This is a repository where I store all the projects I have worked on so far.
 
+### NU Room:
+This is an app I worked in a team of 6 to develop. The goal of this app is to help Northwestern students easily find roommates they're compatible with. Users fill out a form and then are able to see others who have similar preferences and can match with them. The link to this app is [here.](https://nu-room-92e71.web.app/)
+
 ### Photo App:
 This is an instagram clone I'm currently working on for my web development class. We are working with HTML, CSS, JS, SQL, and React.
 The link to this is [here.](https://photo-app-kelvin.herokuapp.com/)
