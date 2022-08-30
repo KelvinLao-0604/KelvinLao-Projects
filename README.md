@@ -15,7 +15,7 @@ The link to this is [here.](https://photo-app-kelvin.herokuapp.com/)
 This was the final project for my Intro to the Data Science Pipeline class. I worked in a team of three to analysis suicide rates and try to predict the suicide rates given the other paramters in the dataset. In this project we worked with a [suicide rates dataset from kaggle.](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016) I worked on the age and generation EDA, the Polynomial Regression machine learning, and the preprocessing of the data.
 
 ### Terror in Tech:
-I worked in a team of 3 to create a 2D top-down rougelike game. I worked on implementing the different ammo types, the map geometry, and enemy spawning mechanics. The Terror in Tech zip has the actual final build and there is a seperate zip for the unity files.
+I worked in a team of 3 to create a 2D top-down roguelike game. I worked on implementing the different ammo types, the map geometry, and enemy spawning mechanics. The Terror in Tech zip has the actual final build and there is a seperate zip for the unity files.
 
 ### Platform Game:
 This is a 2D platformer game made in Unity using C#. The player starts at the left of the screen and has to traverse to a platform at the very right of the map. 
@@ -39,7 +39,7 @@ This is a Blackjack game I made in Java during my high school senior year.
 ### CATWOT Mask:
 This is an engineering project I worked with a team of four on. Our goal was to try to prototype a new mask which would be easy to make at home during the mask shortage at the beginning of the COVID-19 pandemic.
 
-### Produtive Commuting:
+### Productive Commuting:
 This is an engineering project I worked with a team of three on in high school. Our goal was to create a way for commuters to work while on long public transit trips. We created a prototype of a lapdesk which also worked as a writing surface and storage device to allow commuters to work on public transit.
 
 ### Visual Deflector Watching Hands Play:
